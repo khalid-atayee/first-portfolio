@@ -1,0 +1,313 @@
+ html
+ {
+    scroll-behavior: smooth;
+ }
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+ }
+
+
+
+ .content {
+     background: url('coverImage.jpg');
+     background-size: cover;
+     color: white;
+     height: 713px;
+
+
+ }
+
+ .header {
+     display: flex;
+     /* border: 1px solid red; */
+     padding: 10px;
+     justify-content: flex-start;
+
+
+ }
+
+ .logo {
+     /* border: 1px solid rebeccapurple; */
+     padding: 10px 20px;
+     margin-left: 50px;
+     font-weight: bolder;
+     color: red;
+     font-size: 30px;
+ }
+
+ .nav {
+     margin-left: auto;
+     /* border: 1px solid gray; */
+     margin-right: 8%;
+     font-size: 20px;
+
+
+
+ }
+
+ .nav ul {
+     display: flex;
+     /* border: 1px solid green; */
+     /* margin-right: 5%; */
+
+ }
+
+ .nav ul li {
+     /* border: 1px solid brown; */
+     list-style-type: none;
+     padding: 10px 20px;
+     margin: 10px;
+
+
+ }
+
+ .nav ul li a {
+     text-decoration: none;
+     color: whitesmoke;
+ }
+
+ .nav ul li a:hover {
+     color: red;
+     ;
+
+ }
+
+ .landing-page {
+     margin: 0 auto;
+     /* border: 1px solid red; */
+     width: fit-content;
+     text-align: center;
+ }
+
+ .myImage {
+     width: 100%;
+     height: 100%;
+     border-radius: 50% 50% 50% 50%;
+     border: 4px solid white;
+
+
+     object-fit: cover;
+ }
+
+ .image-dev {
+     width: 250px;
+     height: 250px;
+     /* border-radius:50% 50% 50% 50%;
+    border:3px solid darkred; */
+     margin-top: 30%;
+     margin-left: 7%;
+ }
+
+ .name {
+     /* text-align: center; */
+     padding: 10px;
+     word-spacing: 15px;
+     font-size: 2rem;
+     font-weight: bold;
+     color: rgb(219, 217, 217);
+
+ }
+
+    .name:hover {
+        color: red;
+    }
+
+.skill
+{
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: red;
+}
+.btn 
+{
+    
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 2px solid white;
+       
+}
+
+.btn:hover,.btn:active
+{
+    cursor: pointer;
+    /* background-color: rgb(117, 2, 2); */
+    color: red;
+ 
+}
+.about
+{
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+.about-header
+{
+    text-align: center;
+    padding: 10px;
+}
+.about-header h1{
+
+    font-size: 30px;
+}
+.about-header p 
+{
+    color: rgb(161, 157, 157);
+}
+
+
+.about-container
+{
+    display: flex;
+    
+}
+
+.about-dev
+{
+    width: 400px;
+    /* flex-basis: 50%; */
+    padding: 20px;
+    
+    flex: 1;
+    margin-left: 4rem;
+   
+}
+
+.about-image
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+   
+}
+.about-content
+{
+    flex: 2;
+    /* padding: 5px; */
+    padding-right:100px;
+    padding-left: 20px;
+    font-size: large;
+    font-style: italic; 
+    margin-top: 10px;
+   
+}
+.btn-cv
+{
+    text-decoration: none;
+    border: 3px solid darkred;
+
+}
+
+.services
+{
+    background-color: rgb(244, 244, 244);
+    padding: 20px;
+
+}
+.services-header
+{
+    text-align: center;
+    padding: 30px;
+}
+.services-header h1 
+{
+    font-size: 30px;
+
+
+}
+
+.Developer-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Developer
+{
+    background-color: white;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow:0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.Developer:hover
+{
+    box-shadow:0 5px 15px rgba(0, 0, 0, 0.2);
+
+
+}
+.dev-content h2{
+    font-size: 18px;
+}
+.dev-content ul li {
+    line-height: 30px;
+}
+
+.contact-content
+{
+   
+
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+}
+.contact-header
+{
+    /* margin: 20px; */
+    text-align: center;
+}
+.contact-header h1
+{
+    font-size: 30px;
+}
+.input-type
+{
+    padding: 10px;
+    width: 500px;
+    margin-top: 10px;
+}
+.label
+{
+    font-size: 20px;
+    /* padding: 10px;
+    margin: 10px; */
+ 
+}
+.btn-send
+{
+    text-decoration: none;
+    border: 3px solid darkred;
+    /* padding: 10px 40px; */
+    padding: 10px 70px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.btn-send:hover
+{
+    color: red;
+}
+
+.footer
+{
+    background-color: darkred;
+    padding: 15px;
+    
+}
+.footer p{
+    color: rgba(255, 255, 255, 0.816);
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+
